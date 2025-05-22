@@ -9,14 +9,14 @@ public class ProductoService {
 
 	private List<ProductoDto> productosDto = new ArrayList<>();
 
-
-
 	public void agregarProducto(ProductoDto productoDto) {
 		this.productosDto.add(productoDto);
 	}
 
 	public List<ProductoDto> consultarProductos() {
 		return this.productosDto;
+		
+		
 	}
 
 }
